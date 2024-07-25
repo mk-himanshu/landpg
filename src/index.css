@@ -1,5 +1,6 @@
 body {
-  margin: 0;
+  margin: 10px;
+  height:100%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -7,7 +8,154 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+ .container{
+  display: flex;
+ }
+ .div1{
+  width: 60%;
+  
+  height:100%;
+}
+.div2{
+  width: 40%;
+  margin-top: 20px;
+  height:100%;
+  position:relative;
+  padding-top: 50px;
+}
+.img1{
+ 
+  width:300px;
+}
+.img2{
+  width:270px;
+  
+}
+
+.logo{
+  display: flex;
+}
+.logo img{
+  height: 70px;
+  width:70px;
+  padding: 15px;
+}
+.logo h1{
+  font-size: 30px;
+  padding-top: 10px;
+}
+
+
+ .card1{
+  background-color: #E9A941;
+  height: 101px;
+  width:310px;
+  padding :5px;
+  border-radius: 15px;
+  margin: auto ;
+  display: flex;
+  color: white;
+ }
+ .img1{
+  width: 40%;
+ }
+ .text{
+  width: 60%;
+ }
+ .text h1{
+  margin: 0px ;
+  text-decoration: underline;
+ }
+ .text p{
+  margin: 10px;
+ }
+ .cards{
+  display:flex;
+  margin-left: 20px;
+
+ }
+
+ .card2{
+  
+  background-color: #C37837;
+  height: 101px;
+  margin:10px;
+  width:310px;
+  padding :5px;
+  border-radius: 15px;
+  display: flex;
+  color: white;
+  justify-content: left;
+ }
+ .card3{
+  background-color:  #43292E;
+  height: 101px;
+  width:310px;
+  padding :5px;
+  margin:12px;
+  border-radius: 15px;
+  display: flex;
+  color: white;
+  justify-content: end;
+ }
+
+ .footerr{
+  display: flex;
+ }
+ .icon{
+  display: flex;
+  padding: 10px;
+  width: 16%;
+  margin-left: 10px;
+ }
+ .icon h2{
+  color: #E26640;
+ }
+
+ span{
+  color:#E86941;
+ }
+
+.heading{
+ font-size: 40px;
+ color:#303148;
+
+ padding :0 70px 0 50px;
+}
+.head{
+  width:220px;
+  height:160px;
+  background-color: #F3F5B5;
+  border-radius: 15px;
+  margin: 20px;
+  margin-left: 50px;
+  margin-top: 40px;
+  position: relative;
+  margin-right: -30px;
+}
+.row1{
+  display: flex;
+}
+.check{
+  background-color: #B35858;
+  height:60px;
+  width:60px;
+  padding: 30px;
+  border-radius: 12px;
+  margin: auto;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+.set{
+  display: flex;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.set p{
+  padding-left: 5px;
+  margin: auto;
 }
